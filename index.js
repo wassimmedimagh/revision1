@@ -67,4 +67,73 @@ function weirdDivisionWithFor(n){
     }
         
     }
-        
+    function laughwithfor(number){
+  var result=""
+  for (var i=0;i<number; i++) {
+    result+="ha"
+}
+return result
+}
+
+function laughwithwile(number){
+  var result=""
+    var i=0
+while(i<number){
+    result+="ha"
+
+    i++}
+    return result}
+    function laughrecusively(num) {
+  if (num === 0) {
+    return "";
+  }
+  
+  else {
+    return "ha" + laugh(num - 1);
+  }
+}
+function sumofn(num){
+        if (num === 0){
+            return 0
+        }
+        return num + sumofn(num-1)
+    }
+
+function sumofn(num){
+      var sum=0
+    var i=1
+    while(i<=num){
+        sum+=i
+    i++}
+    return sum
+    
+    }
+    function sumofn(num){
+      var sum=0
+    
+    for(var i=1;i<=num;i++){
+        sum+=i
+    }
+    return sum
+    
+    }
+
+function factorialRecursively(number) {
+    if (number<=1){
+        return 1}
+return number*factorialRecursively(number-1)}
+function rangefor(min,max){
+    var arr=[]
+    for (var i=min;i<max;i++){
+        arr.push(i)}
+    return arr
+}function rangewhile(min,max){
+    var arr=[]
+    var i=min
+    while(i<max){
+        arr.push(i)
+    i++
+    }
+    return arr
+}
+
